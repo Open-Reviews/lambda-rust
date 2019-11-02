@@ -2,7 +2,7 @@
 FROM lambci/lambda:build-provided
 ARG RUST_VERSION
 RUN yum install -y jq
-RUN apk add libpq-dev
+RUN yum install -y postgresql-devel
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \
  | sh -s -- -y --profile minimal --default-toolchain $RUST_VERSION
 ADD build.sh /usr/local/bin/
