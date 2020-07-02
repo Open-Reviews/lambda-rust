@@ -1,3 +1,34 @@
+# 0.2.7-rust-1.44.0
+
+* Upgrade to Rust [`1.44.0`](https://blog.rust-lang.org/2020/06/04/Rust-1.44.0.html)
+
+# 0.2.7-rust-1.43.1
+
+* Upgrade to Rust [`1.43.1`](https://blog.rust-lang.org/2020/05/07/Rust.1.43.1.html)
+# 0.2.7-rust-1.43.0
+
+* Upgrade to Rust [`1.43.0`](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html)
+
+# 0.2.7-rust-1.42.0
+
+* Invoke user provided hooks for customized installation, building, and packaging needs [#59](https://github.com/softprops/lambda-rust/pull/59)
+
+# 0.2.6-rust-1.42.0
+
+* Upgrade to Rust [`1.42.0`](https://blog.rust-lang.org/2020/03/12/Rust-1.42.html)
+
+# 0.2.6-rust-1.41.0
+
+* Upgrade to Rust [`1.41.0`](https://blog.rust-lang.org/2020/01/30/Rust-1.41.0.html)
+
+# 0.2.6-rust-1.40.0
+
+* Upgrade to Rust [`1.40.0`](https://blog.rust-lang.org/2019/12/19/Rust-1.40.0.html)
+
+# 0.2.6-rust-1.39.0
+
+* Upgrade to Rust [`1.39.0`](https://blog.rust-lang.org/2019/11/07/Rust-1.39.0.html)
+
 # 0.2.6-rust-1.38.0
 
 * Debug info in `release` profiles is now only included when a `DEBUGINFO` env variable is provided. This perserves previous behavior and makes enabling this an opt-in feature for `release` binaries
